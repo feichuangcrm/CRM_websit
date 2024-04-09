@@ -1,5 +1,5 @@
 <template lang="pug">
-video( :src="src" ref="el" x5-video-player-type="h5" x5-playsinline webkit-playsinline  playsinline autoplay="autoplay" loop muted)
+video( :src="src" ref="el" x5-video-player-type="h5" x5-playsinline webkit-playsinline :controls="isControls"  playsinline autoplay="autoplay" loop muted)
 </template>
 
 <script setup lang="ts">
