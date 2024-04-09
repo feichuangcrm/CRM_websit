@@ -1,0 +1,86 @@
+.readable
+  font-size: fluid-value(16, 20)
+  line-height: 162.5%
+  color: black
+
+  p
+    line-height: 1.8
+    margin-top: 0
+    margin-bottom: 1.2em
+
+    & + ul
+      margin-top: -0.8em
+
+  > *:empty
+    display: none
+
+  > :first-child
+    margin-top: 0
+
+  strong
+    font-weight: 600
+
+  img, iframe
+    max-width: 100%;
+    display: block;
+    margin: 0px auto;
+
+  h1
+    font-size: 1.2em
+
+  h2
+    font-size: 1em
+
+  h3
+    font-size: 1em
+
+  h4, h5, h6
+    font-size: 1em
+
+  h1, h2, h3, h4, h5, h6
+    line-height: 133%
+    font-weight: 600
+    margin-top: 1em
+    margin-bottom: 12px
+
+  a
+    word-wrap: break-word
+    color: black
+    text-decoration: underline
+
+    &:hover
+      opacity: 0.8
+
+  pre {
+    border: 1px solid #dee0e3;
+    background: #f5f6f7;
+    border-radius: 5px;
+    line-height: 1.75;
+    margin: 0 0 1.75em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 15px;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+
+  pre code {
+    border: none;
+  }
+
+  code {
+    border: 1px solid #d1d1d1;
+    background: #f5f6f7;
+    color: #555;
+    margin: 0px 3px;
+    padding: 1px 2px;
+    border-radius: 5px;
+  }
+
+  /html.dark &
+    pre,
+    code
+      color: #EAEAEA
+      background: #2C2C2C
+      border-color: #333

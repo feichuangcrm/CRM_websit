@@ -1,0 +1,13 @@
+# Nuxt dev/build outputs
+.output
+.nuxt
+# Node dependencies
+node_modules
+# System files
+*.log
+.env
+# VSCode
+.vscode
+.DS_Store
+# Generate
+dist
