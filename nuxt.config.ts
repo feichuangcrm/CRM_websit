@@ -40,13 +40,28 @@ export default defineNuxtConfig({
           name: "description",
           content: "基于飞书的协作型CRM产品",
         },
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:url", content: "https://crm.feichuangtech.com" },
+        { name: "twitter:title", content: "飞创CRM" },
+        {
+          name: "twitter:description",
+          content: "基于飞书的协作型CRM产品",
+        },
+        {
+          name: "twitter:image",
+          content:
+            "https://feichuang-www-dev.oss-cn-shenzhen.aliyuncs.com/sys/crm_logo.jpg",
+        },
+
         { name: "og:type", content: "website" },
+        { name: "og:site_name", content: "飞创CRM" },
         { name: "og:title", content: "飞创CRM" },
         { name: "og:url", content: "https://crm.feichuangtech.com" },
+
         {
           name: "og:image",
           content:
-            "https://feichuang-www-dev.oss-cn-shenzhen.aliyuncs.com/sys/crm_logo.svg",
+            "https://feichuang-www-dev.oss-cn-shenzhen.aliyuncs.com/sys/crm_logo.jpg",
         },
         {
           name: "og:description",
