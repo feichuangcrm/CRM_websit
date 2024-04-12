@@ -27,7 +27,7 @@
           | AI教练：规范基本操作
         span   
           | 提高销售技能
-      p.feature-desc(style="color:#8F959E") 助力团队快速响应客户需求、销售成交更高效、管理指令一清二楚、推动销售自我驱动
+      p.feature-desc(style="color:#8F959E") 企业定制自己的销售AI教练，对员工跟进记录自动点评、打分
       //- button.more-btn 了解更多
   mixin customerIntro
     .intro-part
