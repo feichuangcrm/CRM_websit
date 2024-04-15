@@ -2,8 +2,8 @@
 .overview-slogan-banner
   img(:src="`${config.IMG_URL}/${isMobileBol?'footer_pure_mobile.png':'footer_1.svg'}`" class="animation1 image-set-of-item")
   .limit-container.flex.flex-col.items-center
-    span.header-title 和你的优秀销售一起，开启高效赢单之旅
-    span.content-title 立即免费试用，或咨询我们，了解飞创CRM如何帮助您的团队 
+    h1.header-title 和你的优秀销售一起，开启高效赢单之旅
+    h1.content-title 立即免费试用，或咨询我们，了解飞创CRM如何帮助您的团队 
     .flex.justify-center.gap-4.action-row
       button.free-btn(@click="freeUse") 免费试用
       button.inquire-btn(@click="inquire") {{isMobileBol?"联系我们":"立即咨询"}}
@@ -86,6 +86,7 @@ const inquire = () => {
     letter-spacing: 0em;
     text-align: center;
     margin-bottom: 8px
+    margin-top: 0px
 
   .content-title
     font-size: 20px;
@@ -95,6 +96,8 @@ const inquire = () => {
     text-align: center;
     color: #8F959E
     margin-bottom: 36px
+    margin-top: 0px
+
 
 
   .action-row

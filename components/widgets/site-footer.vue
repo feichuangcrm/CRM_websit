@@ -2,7 +2,7 @@
 .site-footer
   .left-box
     affine-logo.navbar-logo( name="logo2" style="height:28px;width:28px" )
-    span.crmName(style="width:135px") 飞创CRM
+    h1.crmName(style="width:135px") 飞创CRM
   .right-box
     .tel-info
       img( src="../../assets/icons/github.svg" alt="")

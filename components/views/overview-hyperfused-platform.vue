@@ -6,18 +6,18 @@
     .cards-row.flex.gap-4
       .card.say-goodbye-card
         physics-blocks.icons-wrapper
-        .card-title(style="line-height:60px") 告别切换的麻烦
-        .card-desc 厌倦了为了满足业务需要而频繁切换不同工具
+        h3.card-mini-title 告别切换的麻烦
+        h3.card-desc 厌倦了为了满足业务需要而频繁切换不同工具
       .flex.flex-col.side-part.gap-4
         .card.focused-card(style="padding:0")
           img.introduce1( :src="`${config.IMG_URL}/introduce1.gif`" style="margin-top:16px")
           div(style="padding:18px 16px 36px 16px")
-            .card-mini-title 飞创CRM，释放你无限创造力
-            .card-desc 轻松实现高效工作、激发团队创造力，推动业务增长
+            h3.card-mini-title 飞创CRM，释放你无限创造力
+            h3.card-desc 轻松实现高效工作、激发团队创造力，推动业务增长
         .privacy-card
           img.introduce2( :src="`${config.IMG_URL}/introduce2.gif`")
-          .card-mini-title.margin(style="margin-top:18px") 营销获客 销售管理
-          .card-desc.margin 深度集成飞书应用，让业务流与协作流合二为一
+          h3.card-mini-title.margin(style="margin-top:18px") 营销获客 销售管理
+          h3.card-desc.margin 深度集成飞书应用，让业务流与协作流合二为一
 </template>
 
 <script setup lang="ts">
@@ -88,9 +88,8 @@ const { public: config } = useRuntimeConfig();
       color: #000
       font-size: fluid-value(24, 32, 390, 560)
       font-weight: 500
-      line-height: 125%
       letter-spacing: (-1.28/32em)
-      margin-bottom: 8px
+      margin:0 0 8px 0
 
     .card-mini-title
       color: #000
@@ -98,12 +97,14 @@ const { public: config } = useRuntimeConfig();
       font-weight: 500
       line-height: fluid-value(30, 60, 390, 744)
       letter-spacing: (-0.48/24em)
-      margin-bottom: 8px
+      margin: 0 0 8px 0
 
     .card-desc
       font-size: fluid-value(14, 20, 390, 744);
       line-height: 150%
       color: #8F959E
+      font-weight: 400
+      margin: 0
 
     .focused-card
       flex: 1

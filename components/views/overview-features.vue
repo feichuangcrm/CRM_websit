@@ -7,7 +7,7 @@
           | 易于推行、零学习成本
         span   
           | 销售无感上手
-      p.feature-desc(style="color:#8F959E") 促进团队信息协作、数据一目了然、决策快又准、业务流转轻松顺畅
+      h1.feature-desc(style="color:#8F959E") 促进团队信息协作、数据一目了然、决策快又准、业务流转轻松顺畅
       //- button.more-btn 了解更多
 
   mixin drawIntro
@@ -17,7 +17,7 @@
           | 客户融资、产品动态
         span   
           | 自动识别推送
-      p.feature-desc(style="color:#8F959E") 客户融资数据、重大新闻自动推送给销售，不错过任何商机
+      h1.feature-desc(style="color:#8F959E") 客户融资数据、重大新闻自动推送给销售，不错过任何商机
       //- button.more-btn 了解更多
 
   mixin planIntro
@@ -27,21 +27,21 @@
           | AI教练：规范基本操作
         span   
           | 提高销售技能
-      p.feature-desc(style="color:#8F959E") 企业定制自己的销售AI教练，对员工跟进记录自动点评、打分
+      h1.feature-desc(style="color:#8F959E") 企业定制自己的销售AI教练，对员工跟进记录自动点评、打分
       //- button.more-btn 了解更多
   mixin customerIntro
     .intro-part
       .content-text
         span
           | 对话机器人、快捷信息交互、全新信息入口
-      p.feature-desc(style="color:#8F959E") 向对话机器人发送客户简称，就能自动返回所有相关客户
+      h1.feature-desc(style="color:#8F959E") 向对话机器人发送客户简称，就能自动返回所有相关客户
       //- button.more-btn 了解更多
   mixin taskIntro
     .intro-part
       .content-text
         span
           | 为每个销售创建一张销售BI看板
-      p.feature-desc(style="color:#8F959E") 数据自动同步飞书多维表格，每个销售都可以灵活分析自己的客户数据，制定销售BI看板
+      h1.feature-desc(style="color:#8F959E") 数据自动同步飞书多维表格，每个销售都可以灵活分析自己的客户数据，制定销售BI看板
       //- button.more-btn 了解更多
   .feature-section.feature-write
     .limit-container.flex
@@ -437,6 +437,7 @@ onMounted(() => {
       font-size: 20px
       line-height: 150%
       margin: 0
+      font-weight: 400
 
       @media $mediaInXS
         font-size: 14px
